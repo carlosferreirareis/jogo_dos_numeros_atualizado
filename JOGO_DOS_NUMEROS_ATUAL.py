@@ -18,14 +18,14 @@ while num_jogadores == 0:
 
 range_max = 50
 jogadores = []
-
+#***********************************GETPASS(PARA 'SUMIR' COM OS INPUTS************************************************
 # Loop para solicitar os nomes dos jogadores e adicioná-los à lista jogadores
 for i in range(num_jogadores):
     time.sleep(0.4)
     jogador = input(f"Digite o nome do jogador {i+1}: ")
     jogadores.append(jogador)
 # Cria um dicionário com os nomes dos jogadores da lista jogadores e inicializa seus valores em 0
-
+#comentariooooooooooooooooo
 dict_jogadores = {idx: jogador for idx, jogador in enumerate(jogadores)}
 numeros_jogados = [] #cria lista vazia                     #random para a primeira rodada
 
